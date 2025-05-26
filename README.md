@@ -23,18 +23,19 @@ Ideal for:
 3. Enable **Developer Mode**.
 4. Click **Load Unpacked** and select the extension folder.
 5. The Focus Guard icon will appear in your toolbar.
+6. Select the exam you are targeting. 
 
 ## 📝 How It Works
 
-Focus Guard uses a list of keywords and basic natural language filtering to:
+Focus Guard uses AI to:
 - Check if the video title contains exam-related terms.
 - Automatically act on tabs not matching the criteria.
 
-You can customize the keywords list by modifying the `allowed_keywords` in the source code.
 
 ## 📷 Screenshots
 
-*(Add screenshots of your extension UI and example filtered tabs here)*
+*![image](https://github.com/user-attachments/assets/34ef6616-7e1a-4268-9d23-e93a2eec513c)
+*
 
 ## 🛠️ Tech Stack
 
@@ -43,5 +44,19 @@ You can customize the keywords list by modifying the `allowed_keywords` in the s
 - Regex-based filtering
 - (Optional: AI keyword matching planned in future)
 
+## 🐱‍💻 Developer Notes
+
+You can use your own Groq API key by replacing the default key in the script with yours.
+
+
 ## 📄 License
+
+This project is **not open source**.
+
+All rights to the source code, design, and concept of **Focus Guard** are reserved by the author.
+
+You **may not** copy, distribute, modify, or use any part of this project or its ideas without **explicit written permission** from the author.
+
+For licensing inquiries, contact: arushbaluni@gmail.com
+
 
