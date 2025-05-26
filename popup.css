@@ -1,0 +1,236 @@
+html,
+body {
+  width: 420px;
+  height: 525px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.2);
+  /* semi-transparent */
+  backdrop-filter: blur(10px);
+}
+
+
+.footer-text {
+  color: black;
+  margin-top: 40px;
+  margin-bottom: 7px;
+  text-align: center;
+  align-items: center;
+  font-size: 18px;
+  font-family: "Foldit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.footer-text span {
+  color: red;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.footer-text a {
+  color: purple;
+  font-family: "Foldit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+
+
+
+.main {
+  position: relative;
+  max-width: 420px;
+  height: 480px;
+  margin: 15px auto;
+  background: rgb(247, 241, 241);
+  padding: 10px;
+  padding-top: 7px;
+  border-radius: 25px;
+  border-color: rgb(1, 28, 2);
+  border-style: solid;
+  border-width: 15;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/*    border-color: rgb(66, 6, 6); */
+
+.header {
+  max-width: 420px;
+  margin: 5px auto;
+  background: #f5f5f5;
+  padding: 0px;
+  border-radius: 25px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-color: rgb(1, 28, 2);
+  border-style: solid;
+  border-width: 15;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.heading {
+  margin-left: 10%;
+  margin-top: 0px;
+  font-size: 42px;
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+
+
+.cf {
+  font-size: 20px;
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+
+
+}
+
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.card {
+  padding: 0px;
+}
+
+
+.ii {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin-left: 10px;
+  align-items: center;
+}
+
+.ss {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border-width: 2;
+  margin-right: 10px;
+  margin-left: auto;
+  right: 0%;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.cf {
+  font-size: 25px;
+  font-family: "Sour Gummy", sans-serif;
+  margin-bottom: 10px;
+}
+
+
+
+.container-eg-btn-5 {
+  display: flex;
+  gap: 35px;
+}
+
+
+
+.buttonss {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 2px;
+}
+
+/* Inactive Button Style */
+.buttonss .button {
+  background: #f0f0f0;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 12px;
+  text-transform: uppercase;
+  border-color: rgb(66, 6, 6);
+  border-style: solid;
+  border-width: 15;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 5px 6px px rgba(0, 0, 0, 0.1);
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+/* Inactive Hover Effect */
+.buttonss .button:hover {
+  background: #e0e0e0;
+  transform: translateY(-2px);
+}
+
+/* Active Button Style */
+.buttonss .button.active {
+  background-image: repeating-linear-gradient(45deg,
+      #ffbe5e 12px 36px,
+      #FFEB3B 36px 60px,
+      #CDDC39 60px 84px,
+      #5cccff 84px 108px,
+      #92f3ff 108px 132px);
+  background-size: 300% 25%;
+  background-position: 0 center;
+  color: #010138;
+  text-shadow: 1px 1px white;
+  animation: move-bg 3s linear infinite;
+}
+
+/* Background Animation */
+@keyframes move-bg {
+  0% {
+    background-position: 0 center;
+  }
+
+  100% {
+    background-position: 100% center;
+  }
+}
+
+
+
+.chart-container {
+  margin-top: 20px;
+  /* Moves the whole chart block down */
+  background: rgba(255, 255, 255, 0.2);
+  /* translucent white */
+  border-radius: 15px;
+  /* rounded corners */
+  padding: 15px;
+  /* space inside around the canvas */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  /* subtle shadow for tile effect */
+  backdrop-filter: blur(5px);
+  /* nice blur behind translucent tile (modern browsers) */
+  -webkit-backdrop-filter: blur(5px);
+  /* Safari support */
+
+}

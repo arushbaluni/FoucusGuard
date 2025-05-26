@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Focus Guard",
+  "version": "1.0",
+  "description": "Blocks irrelevant YouTube distractions. Stay focused on JEE/NEET.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/git.png",
+      "48": "assets/git.png",
+      "128": "assets/git.png"
+    }
+  },
+  "icons": {
+    "16": "assets/git.png",
+    "48": "assets/git.png",
+    "128": "assets/git.png"
+  },
+  "permissions": ["tabs", "storage", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["*://*.youtube.com/*"],
+  "web_accessible_resources": [
+    {
+      "resources": ["assets/*"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
