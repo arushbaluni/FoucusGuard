@@ -42,7 +42,7 @@ Focus Guard uses AI to:
 - JavaScript
 - Groq API
 - Regex-based filtering
-- (Optional: AI keyword matching planned in future)
+- Chrome Extensions
 
 ## 🐱‍💻 Developer Notes
 
